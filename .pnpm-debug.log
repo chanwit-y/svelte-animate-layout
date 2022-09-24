@@ -1,0 +1,127 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "svelte-animate-layout",
+      "version": "0.0.1",
+      "private": true,
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.7.1",
+        "svelte-preprocess": "^4.10.6",
+        "tslib": "^2.3.1",
+        "typescript": "^4.7.4",
+        "vite": "^3.1.0"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/cy.b/Library/pnpm/store/v3",
+    "virtualStoreDir": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.6"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.9.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.7.1"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.9.0",
+    "requester": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.80",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "next"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.80",
+    "requester": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.50.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.44.0"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.50.1",
+    "requester": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout",
+    "status": "resolved"
+  },
+  "12 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.502: wanted: {\"node\":\">=16.14\"} (current: {\"node\":\"v16.13.1\",\"pnpm\":\"7.1.9\"})",
+    "prefix": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout"
+  },
+  "13 error pnpm": {
+    "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.502",
+    "wanted": {
+      "node": ">=16.14"
+    },
+    "current": {
+      "node": "v16.13.1",
+      "pnpm": "7.1.9"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.502: wanted: {\"node\":\">=16.14\"} (current: {\"node\":\"v16.13.1\",\"pnpm\":\"7.1.9\"})",
+      "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.502: wanted: {\"node\":\">=16.14\"} (current: {\"node\":\"v16.13.1\",\"pnpm\":\"7.1.9\"})\n    at checkEngine (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:41257:16)\n    at checkPackage (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:43505:74)\n    at packageIsInstallable (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:43475:20)\n    at resolveAndFetch (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:91634:117)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async resolveDependency (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:116490:23)\n    at async resolveDependenciesOfDependency (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:116329:39)\n    at async Promise.all (index 1)\n    at async resolveDependencies (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:116258:29)\n    at async resolveRootDependencies (/usr/local/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:116224:25)"
+    }
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/cy.b/Desktop/Projects/sveltekit/svelte-animate-layout",
+    "status": "resolved"
+  }
+}
